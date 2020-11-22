@@ -5,10 +5,7 @@ html, body { margin: 0; height: 100%; }
 .header { background: -webkit-gradient(linear, left top, right top, from(#b9deed), color-stop(#d6e3e7), to(#b9deed)); background: linear-gradient(to right, #b9deed, #d6e3e7, #b9deed); display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 .header .logo { background: url(../images/logo.svg); background-size: 100%; background-repeat: no-repeat; width: 12em; height: 12em; }
 
-.content.start-page { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding-bottom: 50px; height: 60%; }
-.content.start-page .enter-button { padding: 15px; text-transform: uppercase; font-weight: 700; font-size: 1.5em; background-color: #33CC00; border: 3px solid grey; border-radius: 15px; width: 15%; height: 15%; outline: none; }
-.content.start-page .enter-button:hover { background-color: #40ff00; }
-.content.start-page .enter-button:active { -webkit-box-shadow: inset 0 0 3px 1px; box-shadow: inset 0 0 3px 1px; }
+.content.start-page { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding-bottom: 50px; height: 75%; }
 
 .footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; position: absolute; left: 0; bottom: 0; width: 100%; height: 50px; background-color: #b9deed; }
 .footer .footer-description { padding: 10px; }
